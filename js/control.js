@@ -5,6 +5,7 @@ control = {
 	loadMoreTmr: null,
 	resizeTmr: null,
 
+
 	init: function() {
 		
 		//	This is where we set up all our events and stuff
