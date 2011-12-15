@@ -115,32 +115,8 @@ a {
 }
 
 .shadow {
-    text-shadow:    -2px -2px 1px rgba(255, 255, 255, 0.9),
-                    -4px -4px 1px rgba(255, 255, 255, 0.8),
-                    -6px -6px 1px rgba(255, 255, 255, 0.7),
-                    -8px -8px 1px rgba(255, 255, 255, 0.6),
-                    -10px -10px 1px rgba(255, 255, 255, 0.5),
-                    -12px -12px 1px rgba(255, 255, 255, 0.4),
-                    -14px -14px 1px rgba(255, 255, 255, 0.3),
-                    -16px -16px 1px rgba(255, 255, 255, 0.2),
-                    -18px -18px 1px rgba(255, 255, 255, 0.1);
-    moz-text-shadow:    -2px -2px 1px rgba(255, 255, 255, 0.9),
-                        -4px -4px 1px rgba(255, 255, 255, 0.8),
-                        -6px -6px 1px rgba(255, 255, 255, 0.7),
-                        -8px -8px 1px rgba(255, 255, 255, 0.6),
-                        -10px -10px 1px rgba(255, 255, 255, 0.5),
-                        -12px -12px 1px rgba(255, 255, 255, 0.4),
-                        -14px -14px 1px rgba(255, 255, 255, 0.3),
-                        -16px -16px 1px rgba(255, 255, 255, 0.2),
-                        -18px -18px 1px rgba(255, 255, 255, 0.1);
-    webkit-text-shadow:     -2px -2px 1px rgba(255, 255, 255, 0.9),
-                            -4px -4px 1px rgba(255, 255, 255, 0.8),
-                            -6px -6px 1px rgba(255, 255, 255, 0.7),
-                            -8px -8px 1px rgba(255, 255, 255, 0.6),
-                            -10px -10px 1px rgba(255, 255, 255, 0.5),
-                            -12px -12px 1px rgba(255, 255, 255, 0.4),
-                            -14px -14px 1px rgba(255, 255, 255, 0.3),
-                            -16px -16px 1px rgba(255, 255, 255, 0.2),
-                            -18px -18px 1px rgba(255, 255, 255, 0.1);
+    text-shadow:    2px 2px 1px rgba(0, 0, 0, 1);
+    moz-text-shadow:    2px 2px 1px rgba(0, 0, 0, 1);
+    webkit-text-shadow:    2px 2px 1px rgba(0, 0, 0, 1);
 }    
 
