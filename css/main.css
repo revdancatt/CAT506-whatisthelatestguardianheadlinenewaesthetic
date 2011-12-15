@@ -46,7 +46,6 @@ div {
 }
 
 h1 {
-	font-weight: 900;
 	font-size: 128px;
 	margin-bottom: 28px;
 	margin-top: 12px;
@@ -57,7 +56,6 @@ h2 {
     position: absolute;
     bottom: 0;
     left: 0;
-	font-weight: 400;
 	font-size: 24px;
 	margin-top: -28px;
 	color: black;
