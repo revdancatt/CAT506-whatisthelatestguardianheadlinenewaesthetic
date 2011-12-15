@@ -102,7 +102,7 @@ control = {
 			var newMins = Math.round((parseInt(new Date().getTime()/1000, 10) - control.lastUpdate)/60);
 			var tempHolder = $('h2 a').remove();
 			if (newMins === 0) {
-				$('h2').html('A moment ago in ').append(tempHolder);
+				$('h2').html('A moment ago, in ').append(tempHolder);
 			} else if (newMins == 1) {
 				$('h2').html('About a minute ago in ').append(tempHolder);
 			} else {
