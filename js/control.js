@@ -31,7 +31,7 @@ control = {
 	getLatestHeadline: function () {
 	
 		$.jsonp({
-			url: 'http://content.guardianapis.com/search?page-size=1&format=json&callback=?',
+			url: 'http://content.guardianapis.com/search?page-size=1&format=json&show-fields=thumbnail&callback=?',
 			success: function (json) {
 	
 				//	If we have a response and an array or results with just one item in it
@@ -56,9 +56,19 @@ control = {
 		//	(and therefor in theory, newer) that the current
 		if ('apiUrl' in json && json.apiUrl != control.latestAPIUrl && 'webTitle' in json) {
 			
+            
+            //  fade the contents in and back out again
 			$('#container').stop(true,true).fadeTo(666, 0, function() {
 				
-				//	set the title
+
+                //  set the image, if there is one.
+                if ('fields' in json && 'thumbnail' in json.fields) {
+                    $('body').css('background-image', 'url(' + json.fields.thumbnail + ')');
+                } else {
+                    $('body').css('background-image', 'none');
+                }
+
+                //	set the title
 				document.title = json.webTitle + ' | What is the Latest Guardian Headline?';
 				
 				//	build the main headline
@@ -74,13 +84,16 @@ control = {
 				//	Store the apiUrl so we know what to do next time
 				control.latestAPIUrl = json.apiUrl;
 				control.lastUpdate = parseInt(new Date().getTime()/1000, 10);
-				$('#container').css({opacity: 0.0, display: 'block'});
+				
+                $('#container').css({opacity: 0.0, display: 'block'});
 				control.resized();
 				$('#container').fadeTo(666, 1);
+                
 			});
 			
 		} else {
-			//	Otherwise let us just update the time
+
+            //	Otherwise let us just update the time
 			var newMins = Math.round((parseInt(new Date().getTime()/1000, 10) - control.lastUpdate)/60);
 			var tempHolder = $('#container h2 a').remove();
 			if (newMins === 0) {
