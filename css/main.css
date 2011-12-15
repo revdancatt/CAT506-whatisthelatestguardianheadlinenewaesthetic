@@ -1,6 +1,6 @@
 body {
 	background: black;
-	font-family: "Atomic Age";
+	font-family: 'Merriweather', sans-serif;
 	margin-bottom: 30px;
 }
 
@@ -23,10 +23,10 @@ div {
 }
 
 #container {
-	width: 87%;
-	height: 87%;
-    top: 3%;
-    left: 3%;
+	width: 85%;
+	height: 85%;
+    top: 1%;
+    left: 1%;
     position: absolute;
 }
 
@@ -44,12 +44,14 @@ div {
 
 h1 {
 	font-size: 128px;
+    font-weight: 900;
 	margin-bottom: 28px;
 	margin-top: 12px;
 	color: white;
 }
 
 h2 {
+    font-weight: 400;
     position: absolute;
     bottom: 0;
     left: 0;
