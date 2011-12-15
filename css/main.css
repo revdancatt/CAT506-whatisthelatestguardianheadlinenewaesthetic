@@ -1,14 +1,14 @@
 body {
-	background: white;
+	background: #999999;
 	font-family: "Atomic Age";
 	margin-bottom: 30px;
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
-    -o-background-size: 100% 100%, auto;
-    -moz-background-size: 100% 100%, auto;
-    -webkit-background-size: 100% 100%, auto;
-    background-size: 100% 100%, auto;
+    -o-background-size: 104% 104%, auto;
+    -moz-background-size: 104% 104%, auto;
+    -webkit-background-size: 104% 104%, auto;
+    background-size: 104% 104%, auto;
 }
 
 div {
@@ -56,9 +56,9 @@ h1 {
 
 h2 {
     position: absolute;
-    bottom: 0px;
-    left: -4%;
-	font-weight: 700;
+    bottom: 0;
+    left: 0;
+	font-weight: 400;
 	font-size: 24px;
 	margin-top: -28px;
 	color: black;

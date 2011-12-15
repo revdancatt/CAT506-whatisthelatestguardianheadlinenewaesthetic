@@ -5,7 +5,6 @@ control = {
 	loadMoreTmr: null,
 	resizeTmr: null,
 
-
 	init: function() {
 		
 		//	This is where we set up all our events and stuff
@@ -80,7 +79,8 @@ control = {
 				// put both of them into the container
 				$('#container').empty();
 				$('#container').append(h1.addClass('shadow1').addClass('shadow2'));
-				$('#container').append(h2);
+                $('h2').remove();
+				$('body').append(h2);
 				
 				//	Store the apiUrl so we know what to do next time
 				control.latestAPIUrl = json.apiUrl;
@@ -96,13 +96,13 @@ control = {
 
             //	Otherwise let us just update the time
 			var newMins = Math.round((parseInt(new Date().getTime()/1000, 10) - control.lastUpdate)/60);
-			var tempHolder = $('#container h2 a').remove();
+			var tempHolder = $('h2 a').remove();
 			if (newMins === 0) {
-				$('#container h2').html('A moment ago in ').append(tempHolder);
+				$('h2').html('A moment ago in ').append(tempHolder);
 			} else if (newMins == 1) {
-				$('#container h2').html('About a minute ago in ').append(tempHolder);
+				$('h2').html('About a minute ago in ').append(tempHolder);
 			} else {
-				$('#container h2').html('About ' + newMins + ' minutes ago in ').append(tempHolder);
+				$('h2').html('About ' + newMins + ' minutes ago in ').append(tempHolder);
 			}
 			
 		}
