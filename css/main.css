@@ -1,6 +1,6 @@
 body {
 	background: white;
-	font-family: "Merriweather";
+	font-family: "Atomic Age";
 	margin-bottom: 30px;
     background-repeat: no-repeat;
     background-position: center center;
@@ -26,9 +26,12 @@ div {
 }
 
 #container {
-	width: 90%;
-	height: 90%;
+	width: 87%;
+	height: 87%;
+    top: 3%;
+    left: 3%;
     z-index: 10;
+    position: absolute;
 }
 
 .ribbonHolder {
@@ -52,104 +55,102 @@ h1 {
 }
 
 h2 {
+    position: absolute;
+    bottom: 0px;
+    left: -4%;
 	font-weight: 700;
 	font-size: 24px;
 	margin-top: -28px;
 	color: black;
-}
-
-h2 a {
-	color: black;
-	background: white;
-	border-radius: 8px;
-	padding: 0 10px;
+    padding-left: 12px;
+    padding-right: 12px;
+    background: white;
+    display: inline;
 }
 
 .section_fashion { color: #FFC202; }
-h2.section_fashion a { background: #FFC202; }
 .section_networkukprod { color: #333333; }
-h2.section_networkukprod a { background: #333333; }
 .section_money { color: #8F1AB6; }
-h2.section_money a { background: #8F1AB6; }
 .section_society { color: #801100; }
-h2.section_society a { background: #801100; }
 .section_books { color: #D1008B; }
-h2.section_books a { background: #D1008B; }
 .section_world { color: #D61D00; }
-h2.section_world a { background: #D61D00; }
 .section_politics { color: #801100; }
-h2.section_politics a { background: #801100; }
 .section_sport { color: #008000; }
-h2.section_sport a { background: #008000; }
 .section_technology { color: #801100; }
-h2.section_technology a { background: #801100; }
 .section_film { color: #D1008B; }
-h2.section_film a { background: #D1008B; }
 .section_higher-education-network { color: #0363A8; }
-h2.section_higher-education-network a { background: #0363A8; }
 .section_education { color: #801100; }
-h2.section_education a { background: #801100; }
 .section_mobilenet { color: #333333; }
-h2.section_mobilenet a { background: #333333; }
 .section_media { color: #801100; }
-h2.section_media a { background: #801100; }
 .section_travel { color: #65C5FB; }
-h2.section_travel a { background: #65C5FB; }
 .section_public-leaders-network { color: #B51D5D; }
-h2.section_public-leaders-network a { background: #B51D5D; }
 .section_environment { color: #7BBB00; }
-h2.section_environment a { background: #7BBB00; }
 .section_voluntary-sector-network { color: #FFB200; }
-h2.section_voluntary-sector-network a { background: #FFB200; }
 .section_music { color: #D1008B; }
-h2.section_music a { background: #D1008B; }
 .section_global-development { color: #801100; }
-h2.section_global-development a { background: #801100; }
 .section_childrens-books-site { color: #D1008B; }
-h2.section_childrens-books-site a { background: #D1008B; }
 .section_commentisfree { color: #0061A6; }
-h2.section_commentisfree a { background: #0061A6; }
 .section_healthcare-network { color: #0363A8; }
-h2.section_healthcare-network a { background: #0363A8; }
 .section_business { color: #4A64D9; }
-h2.section_business a { background: #4A64D9; }
 .section_artanddesign { color: #D1008B; }
-h2.section_artanddesign a { background: #D1008B; }
 .section_tv-and-radio { color: #D1008B; }
-h2.section_tv-and-radio a { background: #D1008B; }
 .section_football { color: #006000; }
-h2.section_football a { background: #006000; }
 .section_social-care-network { color: #0061A6; }
-h2.section_social-care-network a { background: #0061A6; }
 .section_lifeandstyle { color: #FFC202; }
-h2.section_lifeandstyle a { background: #FFC202; }
 .section_news { color: #D61D00; }
-h2.section_news a { background: #D61D00; }
 .section_law { color: #801100; }
-h2.section_law a { background: #801100; }
 .section_local-government-network { color: #993399; }
-h2.section_local-government-network a { background: #993399; }
 .section_stage { color: #D1008B; }
-h2.section_stage a { background: #D1008B; }
 .section_housing-network { color: #993399; }
-h2.section_housing-network a { background: #993399; }
 .section_culture { color: #D1008B; }
-h2.section_culture a { background: #D1008B; }
 .section_science { color: #801100; }
-h2.section_science a { background: #801100; }
 .section_uk { color: #D61D00; }
-h2.section_uk a { background: #D61D00; }
 .section_social-enterprise-network { color: #FFB200; }
-h2.section_social-enterprise-network a { background: #FFB200; }
 .section_networkusprod { color: #333333; }
-h2.section_networkusprod a { background: #333333; }
 .section_government-computing-network { color: #00513B; }
-h2.section_government-computing-network a { background: #00513B; }
 .section_sustainablebusiness { color: #0061A6; }
-h2.section_sustainablebusiness a { background: #0061A6; }
 
 a {
 	text-decoration: none;
 	color: inherit;
 }
+
+.shadow1 {
+    text-shadow:    -2px -2px 1px rgba(0, 0, 0, 1),
+                     2px  2px 1px rgba(255, 255, 255, 1),
+                    -4px -4px 1px rgba(255, 255, 255, 1),
+                    -6px -6px 1px rgba(255, 255, 255, 1),
+                    -8px -8px 1px rgba(255, 255, 255, 1),
+                    -10px -10px 1px rgba(255, 255, 255, 1),
+                    -12px -12px 1px rgba(255, 255, 255, 1),
+                    -14px -14px 1px rgba(255, 255, 255, 1),
+                    -16px -16px 1px rgba(255, 255, 255, 1),
+                    -18px -18px 1px rgba(255, 255, 255, 1),
+                    -20px -20px 1px rgba(255, 255, 255, 1),
+                    -10px -10px 1px rgba(255, 255, 255, 1);
+    moz-text-shadow:    -2px -2px 1px rgba(0, 0, 0, 1),
+                         2px  2px 1px rgba(255, 255, 255, 1),
+                        -4px -4px 1px rgba(255, 255, 255, 1),
+                        -6px -6px 1px rgba(255, 255, 255, 1),
+                        -8px -8px 1px rgba(255, 255, 255, 1),
+                        -10px -10px 1px rgba(255, 255, 255, 1),
+                        -12px -12px 1px rgba(255, 255, 255, 1),
+                        -14px -14px 1px rgba(255, 255, 255, 1),
+                        -16px -16px 1px rgba(255, 255, 255, 1),
+                        -18px -18px 1px rgba(255, 255, 255, 1),
+                        -20px -20px 1px rgba(255, 255, 255, 1),
+                        -10px -10px 1px rgba(255, 255, 255, 1);
+    webkit-text-shadow:    -2px -2px 1px rgba(0, 0, 0, 1),
+                             2px  2px 1px rgba(255, 255, 255, 1),
+                            -4px -4px 1px rgba(255, 255, 255, 1),
+                            -6px -6px 1px rgba(255, 255, 255, 1),
+                            -8px -8px 1px rgba(255, 255, 255, 1),
+                            -10px -10px 1px rgba(255, 255, 255, 1),
+                            -12px -12px 1px rgba(255, 255, 255, 1),
+                            -14px -14px 1px rgba(255, 255, 255, 1),
+                            -16px -16px 1px rgba(255, 255, 255, 1),
+                            -18px -18px 1px rgba(255, 255, 255, 1),
+                            -20px -20px 1px rgba(255, 255, 255, 1),
+                            -10px -10px 1px rgba(255, 255, 255, 1);
+}    
 

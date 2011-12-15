@@ -79,7 +79,7 @@ control = {
 				
 				// put both of them into the container
 				$('#container').empty();
-				$('#container').append(h1);
+				$('#container').append(h1.addClass('shadow1').addClass('shadow2'));
 				$('#container').append(h2);
 				
 				//	Store the apiUrl so we know what to do next time
