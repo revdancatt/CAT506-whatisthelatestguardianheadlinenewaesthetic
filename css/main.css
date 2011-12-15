@@ -1,5 +1,5 @@
 body {
-	background: #999999;
+	background: black;
 	font-family: "Atomic Age";
 	margin-bottom: 30px;
     background-repeat: no-repeat;
@@ -14,7 +14,6 @@ body {
 div {
     display: block;
 }
-
 
 #background {
     width: 100%;
@@ -51,7 +50,7 @@ h1 {
 	font-size: 128px;
 	margin-bottom: 28px;
 	margin-top: 12px;
-	color: black;
+	color: white;
 }
 
 h2 {
