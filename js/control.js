@@ -78,7 +78,7 @@ control = {
 				//	build the main headline
 				var h1 = $('<h1>').append($('<a>').attr('href', json.webUrl).html(json.fields.headline)).addClass('section_' + json.sectionId);
 				//	build the section part
-				var h2 = $('<h2>').html('A moment ago in ').append($('<a>').attr('href','http://www.guardian.co.uk/' + json.sectionId).html(json.sectionName)).addClass('section_' + json.sectionId);
+				var h2 = $('<h2>').html('A moment ago, in ').append($('<a>').attr('href','http://www.guardian.co.uk/' + json.sectionId).html(json.sectionName)).addClass('section_' + json.sectionId);
 				
 				// put both of them into the container
 				$('#container').empty();
