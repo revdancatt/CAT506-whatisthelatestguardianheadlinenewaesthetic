@@ -2,13 +2,6 @@ body {
 	background: black;
 	font-family: "Atomic Age";
 	margin-bottom: 30px;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
-    -o-background-size: 104% 104%, auto;
-    -moz-background-size: 104% 104%, auto;
-    -webkit-background-size: 104% 104%, auto;
-    background-size: 104% 104%, auto;
 }
 
 div {
@@ -23,6 +16,10 @@ div {
     left: 0;
     border: 0;
     display: none;
+    image-rendering:-moz-crisp-edges;
+    image-rendering: -o-crisp-edges;
+    image-rendering:-webkit-optimize-contrast;
+    -ms-interpolation-mode:nearest-neighbor;
 }
 
 #container {
@@ -114,5 +111,7 @@ a {
 
 .shadow {
     text-shadow:    1px 1px 1px rgba(0, 0, 0, 1), -1px -1px 1px rgba(255, 255, 255, 1);
+    moz-text-shadow:    1px 1px 1px rgba(0, 0, 0, 1), -1px -1px 1px rgba(255, 255, 255, 1);
+    webkit-text-shadow:    1px 1px 1px rgba(0, 0, 0, 1), -1px -1px 1px rgba(255, 255, 255, 1);
 }    
 
