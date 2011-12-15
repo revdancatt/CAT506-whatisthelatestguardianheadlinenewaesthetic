@@ -18,6 +18,10 @@ control = {
 			control.resizeTmr = setTimeout(control.resized, 300);
 		});
 
+        $('#background').load(function() {
+            $('#background').stop(true,true).fadeTo(666, 1);
+        });
+        
 		//	Load in the latest headline
 		this.getLatestHeadline();
 
@@ -62,11 +66,11 @@ control = {
 				
 
                 //  set the image, if there is one.
-                if ('fields' in json && 'thumbnail' in json.fields) {
-                    $('body').css('background-image', 'url(' + json.fields.thumbnail + ')');
-                } else {
-                    $('body').css('background-image', 'none');
-                }
+                $('#background').stop(true,true).fadeTo(666, 0, function() {
+                    if ('fields' in json && 'thumbnail' in json.fields) {
+                        $('#background').attr('src', json.fields.thumbnail);
+                    }
+                });
 
                 //	set the title
 				document.title = json.webTitle + ' | What is the Latest Guardian Headline?';
