@@ -39,7 +39,7 @@ control = {
 			success: function (json) {
 	
 				//	If we have a response and an array or results with just one item in it
-				//	then we have gotten back a valid result we may want to work with
+				//	then we git have gotten back a valid result we may want to work with
 				if ('response' in json && 'results' in json.response && json.response.results.length == 1) {
 					control.parse(json.response.results[0]);
 				} else {
@@ -135,7 +135,5 @@ control = {
 
 
 	}
-
-
 
 };
