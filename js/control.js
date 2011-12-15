@@ -104,9 +104,9 @@ control = {
 			if (newMins === 0) {
 				$('h2').html('A moment ago, in ').append(tempHolder);
 			} else if (newMins == 1) {
-				$('h2').html('About a minute ago in ').append(tempHolder);
+				$('h2').html('About a minute ago, in ').append(tempHolder);
 			} else {
-				$('h2').html('About ' + newMins + ' minutes ago in ').append(tempHolder);
+				$('h2').html('About ' + newMins + ' minutes ago, in ').append(tempHolder);
 			}
 			
 		}
