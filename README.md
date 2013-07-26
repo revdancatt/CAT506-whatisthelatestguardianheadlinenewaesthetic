@@ -1,11 +1,13 @@
+![Screen Shot](http://cattopus23.com/img/panel-CAT506.jpg)
+
 What is the latest Guardian Headline New Aesthetic Version
 ==========================================================
 
-Can be seen here...
+A second version of the first 2nd Screen Guardian Headline viewer. This was called "New Aesthetic" just because
+that was all getting started and a couple of us where throwing around large pixelated images with text over.
+This one was supposed to be giant pixels but somewhere along the lines it's just become blurred.
 
-http://revdancatt.github.com/CAT506-whatisthelatestguardianheadlinenewaesthetic
+I blame CSS.
 
-
-Is a clone of the normal version that can be found here...
-
-https://github.com/revdancatt/CAT504-whatisthelatestguardianheadline-javascript
++ Running: http://revdancatt.github.com/CAT506-whatisthelatestguardianheadlinenewaesthetic
++ Clone of original: https://github.com/revdancatt/CAT504-whatisthelatestguardianheadline-javascript
