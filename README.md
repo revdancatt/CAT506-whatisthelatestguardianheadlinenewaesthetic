@@ -1,7 +1,7 @@
 ![Screen Shot](http://cattopus23.com/img/panel-CAT506.jpg)
 
-What is the latest Guardian Headline New Aesthetic Version
-==========================================================
+CAT506 What is the latest Guardian Headline New Aesthetic Version
+=================================================================
 
 A second version of the first 2nd Screen Guardian Headline viewer. This was called "New Aesthetic" just because
 that was all getting started and a couple of us where throwing around large pixelated images with text over.
